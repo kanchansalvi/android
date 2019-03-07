@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/itemTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:text="Check Items to shop:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/milkChkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk"
+        android:textSize="15sp"
+        android:layout_marginStart="100dp"
+        android:padding="10dp"
+        android:onClick="chkSelect"
+        android:layout_marginTop="20dp"
+        />
+
+    <CheckBox
+        android:id="@+id/breadChkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread"
+        android:textSize="15sp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:onClick="chkSelect"
+        />
+
+    <CheckBox
+        android:id="@+id/oatsChkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oats"
+        android:textSize="15sp"
+        android:layout_marginStart="100dp"
+        android:padding="10dp"
+        android:onClick="chkSelect"
+        />
+
+    <CheckBox
+        android:id="@+id/cheeseChkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheese"
+        android:textSize="15sp"
+        android:layout_marginStart="100dp"
+        android:padding="10dp"
+        android:onClick="chkSelect"
+        />
+
+    <Button
+        android:id="@+id/submitBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:background="#00bbff"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="itemsSubmitted"
+
+        />
+
+    <TextView
+        android:id="@+id/itemsSelectedTextID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_marginStart="50dp"
+        />
+
+
+</LinearLayout>
