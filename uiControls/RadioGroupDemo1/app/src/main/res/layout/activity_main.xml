@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/surveyTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you willing to take our survey ?"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/surveyRadioGrpID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginStart="50sp"
+        android:layout_below="@+id/surveyTextID"
+        >
+
+        <RadioButton
+            android:id="@+id/surveyYesID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginEnd="50sp"
+            android:text="YES"
+            android:onClick="onSurveyRadioBtnClicked"
+
+            />
+
+        <RadioButton
+            android:id="@+id/surveyNoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="NO"
+            android:onClick="onSurveyRadioBtnClicked"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textColor="#00f"
+        android:background="#00BCD4"
+        android:padding="15sp"
+        android:layout_below="@id/surveyRadioGrpID"
+        android:layout_marginStart="280sp"
+        android:layout_marginTop="30sp"
+        android:onClick="onSubmit"
+        />
+
+    <TextView
+        android:id="@+id/noteTextID"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/submitBtnID"/>
+
+</RelativeLayout>
