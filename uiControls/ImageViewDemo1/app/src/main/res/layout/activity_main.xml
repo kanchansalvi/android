@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Copy and paste the image file to the folder app/res/drawable -->
+    <!-- Img file name without extension in "android:src" attribute -->
+    <ImageView
+        android:id="@+id/myCatImgViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
+        android:background="#5E3317"
+        android:contentDescription="Bruno"
+        android:onClick="catImgClick"
+        android:padding="30dp"
+        android:src="@drawable/mycat"
+        />
+
+    <TextView
+        android:id="@+id/catTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myCatImgViewID"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:padding="10dp"
+        android:text="This is my cat named Bruno.
+Bruno mews a lot and likes to play with yarn."
+        android:textColor="#5E3317"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        />
+</RelativeLayout>
