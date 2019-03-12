@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialRelLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="2dp"
+    android:background="@drawable/list_item_background_and_border"
+    >
+
+    <TextView
+        android:id="@+id/nameTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ross"
+        android:textSize="25dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/contactTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9834629048"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/nameTxtID"/>
+
+</RelativeLayout>
