@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your Interview Date :"
+        android:textSize="25dp"
+        android:textColor="#00f"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <CalendarView
+        android:id="@+id/calendarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectTxtID"
+        android:layout_margin="30dp"
+        android:minDate="01/01/2019"
+        android:maxDate="12/31/2019"
+        />
+
+    <TextView
+        android:id="@+id/dateTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Selected : "
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_below="@id/calendarID"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+</RelativeLayout>
