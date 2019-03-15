@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <!-- Copy and paste the image file to the folder app/res/drawable -->
-    <!-- Img file name without extension in "android:src" attribute -->
+    <!-- Set ImageName file name without extension in "android:src" attribute -->
     <ImageView
         android:id="@+id/myCatImgViewID"
         android:layout_width="wrap_content"
