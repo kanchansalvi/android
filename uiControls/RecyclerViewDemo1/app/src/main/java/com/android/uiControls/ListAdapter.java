@@ -9,36 +9,36 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHOlder> {
+public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
-    private ListData[] mListData;
+    private Contact[] mContactList;
 
-    public ListAdapter(ListData[] listData) {
+    public ListAdapter(Contact[] contactList) {
 
-        this.mListData = listData;
+        this.mContactList = contactList;
     }
 
     // Create new View to hold the data
     @NonNull
     @Override
-    public ViewHOlder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
 
         // Create a new view with the list_item layout
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.list_item,viewGroup,false);
-        return new ViewHOlder(view);
+        return new ViewHolder(view);
     }
 
     // Set the data in the view created
     // viewHolder holds the data
     // where you want to place the data is the position
     @Override
-    public void onBindViewHolder(@NonNull ViewHOlder viewHOlder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder viewHOlder, int position) {
 
-        final ListData list = mListData[position];
+        final Contact list = mContactList[position];
 
-        // Set and display the data from ListData at this position
-        viewHOlder.nameTxt.setText(mListData[position].getName());
-        viewHOlder.contactTxt.setText(mListData[position].getmContactNum());
+        // Set and display the data from Contact at this position
+        viewHOlder.nameTxt.setText(mContactList[position].getName());
+        viewHOlder.contactTxt.setText(mContactList[position].getmContactNum());
 
         // Set what happens when user clicks on the data viewHolder
         viewHOlder.dialRelLayout.setOnClickListener(new View.OnClickListener() {
@@ -53,22 +53,22 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHOlder> {
     @Override
     public int getItemCount() {
 
-        return mListData.length;
+        return mContactList.length;
     }
 
-    public class ViewHOlder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView nameTxt;
         private TextView contactTxt;
         private RelativeLayout dialRelLayout;
 
-        private ViewHOlder(@NonNull View itemView) {
+        private ViewHolder(@NonNull View itemView) {
             super(itemView);
 
             nameTxt = itemView.findViewById(R.id.nameTxtID);
             contactTxt = itemView.findViewById(R.id.contactTxtID);
 
-            dialRelLayout = itemView.findViewById(R.id.dialRelLayoutID);
+            dialRelLayout = itemView.findViewById(R.id.contactRelLayoutID);
         }
     }
 }
