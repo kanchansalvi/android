@@ -1,3 +1,5 @@
+[uiControlsLink]: https://github.com/kanchansalvi/android/tree/master/uiControls
+
 # android
 Repo for all Android Projects
 
@@ -7,34 +9,38 @@ Repo for all Android Projects
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [TextViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/TextViewDemo1) | Demonstrates use of textview| TextView, Relative Layout| [Blog](https://kagasoft.wordpress.com/tag/textview/) |
-| TextViewDemo2 | ScrollView inside TextView| Nested ScrollView, setMovementMethod | XX |
-| TextViewDemo3 | Linkable TextView | href, HTML | XX | 
+| [TextViewDemo1](uiControlsLink/TextViewDemo1) | Demonstrates use of textview| TextView, Relative Layout| [Blog](https://kagasoft.wordpress.com/tag/textview/) |
+| [TextViewDemo2](uiControlsLink/TextViewDemo2) | Linkable TextView|  href, HTML  | XX |
+| [TextViewDemo3](uiControlsLink/TextViewDemo3) | ScrollView inside TextView | Nested ScrollView, setMovementMethod | XX | 
+| [TextViewDemo4](uiControlsLink/TextViewDemo4) | Password Field in EditText | EditText, RequestFocus, ToggleButton, Button, setTransformationMethod, PasswordTransformationMethod | XX |
+| [TextViewDemo5](uiControlsLink/TextViewDemo5) | Autocomplete TextView | AutoCompleteTextView, setThreshold, ArrayAdapter, setAdapter | XX |
+| [TextViewDemo6](uiControlsLink/TextViewDemo6) | MultiAutocomplete TextView | MultiAutocompleteTextView, setTokenizer, CommaTokenizer | XX |
+| [TextViewDemo7](uiControlsLink/TextViewDemo7) | MultiAutocomplete TextView with custom Token | | XX |
 
 2) Button :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ButtonDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ButtonDemo1) | Demonstrates use of Button| Button, onClick| [Blog](https://kagasoft.wordpress.com/tag/button/) |
+| [ButtonDemo1](uiControlsLink/ButtonDemo1) | Demonstrates use of Button| Button, onClick| [Blog](https://kagasoft.wordpress.com/tag/button/) |
 
 3) CheckBox :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [CheckBoxDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/CheckBoxDemo1) | Demonstrates use of CheckBox| CheckBox, onClick| [Blog]() |
+| [CheckBoxDemo1](uiControlsLink/CheckBoxDemo1) | Demonstrates use of CheckBox| CheckBox, onClick| [Blog]() |
 
     
 4) RadioGroup :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [RadioBoxDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/RadioGroupDemo1) | Demonstrates use of RadioGroup | RadioGroup, onClick| [Blog]() |
+| [RadioBoxDemo1](uiControlsLink/RadioGroupDemo1) | Demonstrates use of RadioGroup | RadioGroup, onClick| [Blog]() |
 
 5) ProgressBar :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ProgressBarDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ProgressBarDemo1) | Demonstrates use of Determinate ProgressBar | ProgressBar, Thread, Handler, Ideterminate| [Blog]() |
+| [ProgressBarDemo1](uiControlsLink/ProgressBarDemo1) | Demonstrates use of Determinate ProgressBar | ProgressBar, Thread, Handler, Ideterminate| [Blog]() |
 | ProgressBarDemo2 | Demonstrates use of Indeterminate ProgressBar | ProgressBar, Thread, Handler, Indeterminate| [Blog]() |
 | ProgressBarDemo3 | Demonstrates use of Buffered ProgressBar | ProgressBar, Thread, Handler, setSecondaryProgress| [Blog]() |
 
@@ -42,99 +48,96 @@ Repo for all Android Projects
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [SeekBarDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/SeekBarDemo1) | Demonstrate use of SeekBar | SeekBar, setOnSeekBarChangeListener, onProgressChanged, onStartTrackingTouch, onStopTrackingTouch| [Blog]() |
+| [SeekBarDemo1](uiControlsLink/SeekBarDemo1) | Demonstrate use of SeekBar | SeekBar, setOnSeekBarChangeListener, onProgressChanged, onStartTrackingTouch, onStopTrackingTouch| [Blog]() |
 
 7) Switch :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [SwitchDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/SwitchDemo1) | Demonstrate use of Switch | Switch, isChecked | [Blog]() |
+| [SwitchDemo1](uiControlsLink/SwitchDemo1) | Demonstrate use of Switch | Switch, isChecked | [Blog]() |
 
 8) ImageView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ImageViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ImageViewDemo1) | Demonstrate use of ImageView | ImageView | [Blog]() |
+| [ImageViewDemo1](uiControlsLink/ImageViewDemo1) | Demonstrate use of ImageView | ImageView | [Blog]() |
 
 9) ScrollView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ScrollViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ScrollViewDemo1) | Demonstrate use of ScrollView | ScrollView | [Blog]() |
+| [ScrollViewDemo1](uiControlsLink/ScrollViewDemo1) | Demonstrate use of ScrollView | ScrollView | [Blog]() |
  
 10) CalendarView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [CalendarViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/CalendarViewDemo1) | Demonstrate use of CalendarView | CalendarView, setOnDateChangeListener | [Blog]() |
+| [CalendarViewDemo1](uiControlsLink/CalendarViewDemo1) | Demonstrate use of CalendarView | CalendarView, setOnDateChangeListener | [Blog]() |
 
 11) RecyclerView : 
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [RecyclerViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/RecyclerViewDemo1) | Demonstrate use of RecyclerView | RecyclerView, Implementation, ListAdapter, setLayoutManager, RecyclerView.Adapter, LayoutInflater, onBindViewHolder, RecyclerView.ViewHolder, getItemCount | [Blog]() |
+| [RecyclerViewDemo1](uiControlsLink/RecyclerViewDemo1) | Demonstrate use of RecyclerView | RecyclerView, Implementation, ListAdapter, setLayoutManager, RecyclerView.Adapter, LayoutInflater, onBindViewHolder, RecyclerView.ViewHolder, getItemCount | [Blog]() |
 
 12) ToggleButton :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ToggleButtonDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ToggleButtonDemo1) | Demonstrate use of ToggleButton | ToggleButton, isChecked| [Blog]() |
+| [ToggleButtonDemo1](uiControlsLink/ToggleButtonDemo1) | Demonstrate use of ToggleButton | ToggleButton, isChecked| [Blog]() |
 
 13) ImageButton :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ImageButtonDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ImageButtonDemo1) | Demonstrate use of ImageButton | ImageButton, onClick| [Blog]() |
+| [ImageButtonDemo1](uiControlsLink/ImageButtonDemo1) | Demonstrate use of ImageButton | ImageButton, onClick| [Blog]() |
 
 14) FloatingActionButton :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [FloatingActionButtonDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/FloatingActionButtonDemo1) | Demonstrate use of FloatingActionButton | FloatingActionButton, implementation, onClick| [Blog]() |
+| [FloatingActionButtonDemo1](uiControlsLink/FloatingActionButtonDemo1) | Demonstrate use of FloatingActionButton | FloatingActionButton, implementation, onClick| [Blog]() |
 
 15) WebView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [WebViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/RecyclerViewDemo1) | Demonstrate use of WebView | webview, setWebViewClient, loadUrl, canGoBack, uses-permission | [Blog]() |
+| [WebViewDemo1](uiControlsLink/WebViewDemo1) | Demonstrate use of WebView | webview, setWebViewClient, loadUrl, canGoBack, uses-permission | [Blog]() |
 
 16) VideoView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [VideoViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/VideoViewDemo1) | Demonstrate use of VideoView | WebView, MediaController, setAnchorView, setVideoURI, start, uses-permission| [Blog]() |
+| [VideoViewDemo1](uiControlsLink/VideoViewDemo1) | Demonstrate use of VideoView | WebView, MediaController, setAnchorView, setVideoURI, start, uses-permission| [Blog]() |
 
 17) RatingBar :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [RatingBarDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/RatingBarDemo1) | Demonstrate use of RatingBar | getRating| [Blog]() |
+| [RatingBarDemo1](uiControlsLink/RatingBarDemo1) | Demonstrate use of RatingBar | getRating| [Blog]() |
 
 18) ListView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [ListViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/ListViewDemo1) | Demonstrate use of ListView | ArrayList<>(), ArrayAdapter<String>, setOnItemClickListener | [Blog]() |
+| [ListViewDemo1](uiControlsLink/ListViewDemo1) | Demonstrate use of ListView | ArrayList<>(), ArrayAdapter<String>, setOnItemClickListener | [Blog]() |
 | [ListViewDemo2]() | Demonstrate ListView with HorizontalDivider | ArrayList<>(), ArrayAdapter<String>, setOnItemClickListener, divider | [Blog]() |
 
 19) SearchView :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [SearchViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/SearchViewDemo1) | Demonstrate use of SearchView | ArrayList<>(), ArrayAdapter<String>, setOnQueryTextListener, onQueryTextSubmit, onQueryTextChange, setOnCloseListener| [Blog]() |
+| [SearchViewDemo1](uiControlsLink/SearchViewDemo1) | Demonstrate use of SearchView | ArrayList<>(), ArrayAdapter<String>, setOnQueryTextListener, onQueryTextSubmit, onQueryTextChange, setOnCloseListener| [Blog]() |
 
 20) VerticalDivider : 
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [VerticalDividerDemo1](uiControls/VerticalDividerDemo1) | Demonstrate use of VerticalDivider | View | [Blog]() |
-
-
-[website]: https://github.com/kanchansalvi/android/tree/master/
+| [VerticalDividerDemo1](uiControlsLink/VerticalDividerDemo1) | Demonstrate use of VerticalDivider | View | [Blog]() |
 
 21) HorizontalDivider :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [HorizontalDividerViewDemo1](website/HorizontalDividerViewDemo1) | Demonstrate use of HorizontalDivider | View | [Blog](), [ListViewDemo2]() |
+| [HorizontalDividerViewDemo1](uiControlsLink/HorizontalDividerViewDemo1) | Demonstrate use of HorizontalDivider | View | [Blog](), [ListViewDemo2]() |
 
