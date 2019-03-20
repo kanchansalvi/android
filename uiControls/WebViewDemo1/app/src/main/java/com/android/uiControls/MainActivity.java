@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         /* To open WebLinks in the same WebView we need to set up webClient
         **
         ** E.g. you search for Android and the results are displayed in WebView.
-        ** Without Webview, when you click on link in results, it will open the link in Chrome app.
+        ** Without WebViewClient, when you click on link in results, it will open the link in Chrome app.
         ** With WebViewClient the link doesn't ask for app and is opened in same WebView.
         * */
 
