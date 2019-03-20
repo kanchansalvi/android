@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your password to Login"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordEditTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/textID"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="80dp"
+        >
+        <!-- For the pointer to be at the Password EditText -->
+        <requestFocus/>
+
+        </EditText>
+
+    <ToggleButton
+        android:id="@+id/showPasswordToggleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Show Password"
+        android:textOff="Hide Password"
+        android:layout_below="@id/passwordEditTxtID"
+        android:layout_marginStart="40dp"
+        android:onClick="onClickToggleBtn"
+        android:checked="true"
+        />
+
+    <Button
+        android:id="@+id/submitBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/showPasswordToggleID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickSubmitBtn"
+        />
+
+    <TextView
+        android:id="@+id/displayTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_below="@id/submitBtnID"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"/>
+
+</RelativeLayout>
