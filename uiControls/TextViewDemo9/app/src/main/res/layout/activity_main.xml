@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailTextInputID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:errorEnabled="true"
+        >
+
+   <!-- Only one TextInputEditText can be placed in TextInputLayout.
+        To add another TextInputEditText, use seperate TextInputLayout -->
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/emailTextInputEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email Id"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>
