@@ -1,4 +1,4 @@
-[uiControlsLink]: https://github.com/kanchansalvi/android/tree/master/uiControls
+[uiControlsLink]: /uiControls
 
 # android
 Repo for all Android Projects
