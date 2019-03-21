@@ -9,7 +9,7 @@ Repo for all Android Projects
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [TextViewDemo1](/uiControlsLink/TextViewDemo1) | Demonstrates use of textview| TextView, Relative Layout| [Blog](https://kagasoft.wordpress.com/tag/textview/) |
+| [TextViewDemo1](https://github.com/kanchansalvi/android/tree/master/uiControls/TextViewDemo1) | Demonstrates use of textview| TextView, Relative Layout| [Blog](https://kagasoft.wordpress.com/tag/textview/) |
 | [TextViewDemo2](uiControlsLink/TextViewDemo2) | Linkable TextView|  href, HTML  | XX |
 | [TextViewDemo3](uiControlsLink/TextViewDemo3) | ScrollView inside TextView | Nested ScrollView, setMovementMethod | XX | 
 | [TextViewDemo4](uiControlsLink/TextViewDemo4) | Password Field in EditText | EditText, RequestFocus, ToggleButton, Button, setTransformationMethod, PasswordTransformationMethod | XX |
