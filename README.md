@@ -9,13 +9,15 @@ Repo for all Android Projects
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [TextViewDemo1](uiControlsLink/TextViewDemo1) | Demonstrates use of textview| TextView, Relative Layout| [Blog](https://kagasoft.wordpress.com/tag/textview/) |
+| [TextViewDemo1](/uiControlsLink/TextViewDemo1) | Demonstrates use of textview| TextView, Relative Layout| [Blog](https://kagasoft.wordpress.com/tag/textview/) |
 | [TextViewDemo2](uiControlsLink/TextViewDemo2) | Linkable TextView|  href, HTML  | XX |
 | [TextViewDemo3](uiControlsLink/TextViewDemo3) | ScrollView inside TextView | Nested ScrollView, setMovementMethod | XX | 
 | [TextViewDemo4](uiControlsLink/TextViewDemo4) | Password Field in EditText | EditText, RequestFocus, ToggleButton, Button, setTransformationMethod, PasswordTransformationMethod | XX |
 | [TextViewDemo5](uiControlsLink/TextViewDemo5) | Autocomplete TextView | AutoCompleteTextView, setThreshold, ArrayAdapter, setAdapter | XX |
 | [TextViewDemo6](uiControlsLink/TextViewDemo6) | MultiAutocomplete TextView | MultiAutocompleteTextView, setTokenizer, CommaTokenizer | XX |
 | [TextViewDemo7](uiControlsLink/TextViewDemo7) | MultiAutocomplete TextView with custom Token | | XX |
+| [TextViewDemo8](uiControlsLink/TextViewDemo8) | Checked TextView | checkMark, setCheckMarkDrawable| XX |
+| [TextViewDemo9](uiControlsLink/TextViewDemo9) | TextInputLayout | TextInputLayout, EditTextInputLayout, counterEnabled, counterMaxLength, errorEnabled, addTextChangedListener, TextWatcher, setError| XX |
 
 2) Button :
 
