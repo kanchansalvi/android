@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:id="@+id/row1TableRowID">
+        <TextView
+            android:id="@+id/itemTxtID"
+            android:text="Item"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#01010C"/>
+
+        <TextView
+            android:id="@+id/quantityTxtID"
+            android:text="Quantity"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#01010C"/>
+
+        <TextView
+            android:id="@+id/actionTxtID"
+            android:text="Action"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#01010C"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2TableRowID">
+        <TextView
+            android:id="@+id/item1TxtID"
+            android:text="Milk"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/quantity1TxtID"
+            android:text="12 Oz"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/buy1Btn"
+            android:text="Buy"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row1TableRow3ID">
+        <TextView
+            android:id="@+id/item2TxtID"
+            android:text="Bread"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/quantity2TxtID"
+            android:text="1 pack"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/buy2Btn"
+            android:text="Buy"/>
+
+    </TableRow>
+
+
+
+
+</TableLayout>

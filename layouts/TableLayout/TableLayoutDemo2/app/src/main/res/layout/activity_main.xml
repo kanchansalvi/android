@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/cell_border">
+
+    <TableRow
+        android:id="@+id/row1TableRowID"
+        android:background="@drawable/cell_border"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/itemTxtID"
+            android:text="Item"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#01010C"
+            android:background="@drawable/cell_border"/>
+
+        <TextView
+            android:id="@+id/quantityTxtID"
+            android:text="Quantity"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#01010C"
+            android:background="@drawable/cell_border"/>
+
+        <TextView
+            android:id="@+id/actionTxtID"
+            android:text="Action"
+            android:textSize="25sp"
+            android:textColor="#01010C"
+            android:padding="10dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2TableRowID"
+        android:background="@drawable/cell_border">
+        <TextView
+            android:id="@+id/item1TxtID"
+            android:text="Milk"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:background="@drawable/cell_border"/>
+
+        <TextView
+            android:id="@+id/quantity1TxtID"
+            android:text="12 Oz"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:background="@drawable/cell_border"/>
+
+        <Button
+            android:id="@+id/buy1Btn"
+            android:text="Buy"
+            android:textSize="20sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row1TableRow3ID"
+        android:background="@drawable/cell_border">
+
+        <TextView
+            android:id="@+id/item2TxtID"
+            android:text="Bread"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:background="@drawable/cell_border"/>
+
+        <TextView
+            android:id="@+id/quantity2TxtID"
+            android:text="1 pack"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:background="@drawable/cell_border"/>
+
+        <Button
+            android:id="@+id/buy2Btn"
+            android:text="Buy"
+            android:textSize="20sp"/>
+    </TableRow>
+
+
+</TableLayout>
