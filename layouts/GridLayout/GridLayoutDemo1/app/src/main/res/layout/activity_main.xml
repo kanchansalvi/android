@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:orientation="horizontal"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/grid00Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Grid (0,0)"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:background="#A6A6A6"/>
+
+    <TextView
+        android:id="@+id/grid01Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Grid (0,1)"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:background="#A6A6A6"/>
+
+    <TextView
+        android:id="@+id/grid10Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Grid (1,0)"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:background="#A6A6A6"/>
+
+    <TextView
+        android:id="@+id/grid11Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Grid (1,1)"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:background="#A6A6A6"/>
+
+</GridLayout>
