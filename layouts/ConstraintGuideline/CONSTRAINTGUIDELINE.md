@@ -3,10 +3,10 @@ Repo for Constraint Layout Guidelines in Android Projects
 
 # Constraint Layout Guideline :
 
-A Guideline can be either [horizontal](ConstraintGuidelineHorizontalDemo1) or [vertical](/ConstraintGuidelineVerticalDemo1):
+A Guideline can be either [horizontal](ConstraintGuidelineHorizontalDemo1) or [vertical](ConstraintGuidelineVerticalDemo1):
 
-- [Vertical](/layouts/ConstraintGuidelineVerticalDemo1) Guidelines have a width of zero and the height of their ConstraintLayout parent.  
-- [Horizontal](/layouts/ConstraintGuidelineHorizontalDemo1) Guidelines have a height of zero and the width of their ConstraintLayout parent
+- [Vertical](ConstraintGuidelineVerticalDemo1) Guidelines have a width of zero and the height of their ConstraintLayout parent.  
+- [Horizontal](ConstraintGuidelineHorizontalDemo1) Guidelines have a height of zero and the width of their ConstraintLayout parent
 - Guidelines are not displayed on device. And are only displayed in BluePrint. 
 - Guideline only work within a ConstraintLayout. 
 - Important attributes to be present :   
