@@ -1,34 +1,17 @@
-# GRIDVIEW : 
+# RELATIVELAYOUT : 
 Repo for GridLayout in Android Projects
 
-# GridView :
+# RelativeLayout :
 
-- A view that shows items in two-dimensional scrolling grid.   
-The items in the grid come from the ListAdapter associated with this view.
-- Grid lines are invisible in GridView.
-Check the [GridViewDemo1](GridViewDemo1).
-
-GridView using Base Adapter :
- Check the [GridViewDemo2](GridViewDemo2)
-
-A CustomAdapter can be used to insert values in the Gridview.   
-Check the [GridViewDemo3](GridViewDemo3)
-
-Important Attributes for GridView :   
-numColumns, 
-
-
+- Relative layout specifies how child views are positioned with respect to each other.
+Position is specified relative to other views or relative to the parent layout.
+- By default, it sets all components at the top left of the layout
+Check the [RelativeLayoutDemo1](RelativeLayoutDemo1).
 
 Links:
 
-[Link 1](https://developer.android.com/reference/android/widget/GridView) ,
-[Link 2](https://developer.android.com/reference/kotlin/android/widget/GridView),
-[Link 3](https://www.raywenderlich.com/995-android-gridview-tutorial),
-[Link 4](https://www.tutorialspoint.com/android/android_grid_view.htm),
-[Link 5](https://abhiandroid.com/ui/gridview),
-[Link 6](https://o7planning.org/en/10473/android-gridview-tutorial),
-[Link 7](),
-[Link 8]()
+[Link 1](https://developer.android.com/guide/topics/ui/layout/relative) ,
+[Link 2](https://developer.android.com/reference/android/widget/RelativeLayout)
 
 
 
