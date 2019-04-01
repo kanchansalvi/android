@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/usernameTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name : "
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"/>
+
+    <EditText
+        android:id="@+id/usernameEditTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Username"
+        android:layout_toRightOf="@id/usernameTxtID"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/passwordTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTxtID"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Password : "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordEditTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditTxtID"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/passwordTxtID"
+        android:hint="password" />
+
+    <Button
+        android:id="@+id/submitBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:layout_below="@id/passwordEditTxtID"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
