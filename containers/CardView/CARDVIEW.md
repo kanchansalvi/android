@@ -3,9 +3,6 @@ Repo for Container CardView in Android Projects
 
 # CardView :
 
-
-Steps for  ViewPagerDemo1 : 
-
 1) CardView is usually used in layout for each item within a RecyclerView or ListView.
 2) Cards have default elevation above the container. 
 3) CardView contains a group of views and provides consistent style for containers. 
