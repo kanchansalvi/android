@@ -1,4 +1,4 @@
-# GUIDELINE : 
+# CONSTRAINT GUIDELINE : 
 Repo for Constraint Layout Guidelines in Android Projects
 
 # Constraint Layout Guideline :
