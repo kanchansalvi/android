@@ -1,5 +1,5 @@
-# HORIZONTALSCROLLVIEW
-Repo for Container Horizontal ScrollView in Android Projects
+# SCROLLVIEW :
+Repo for Container ScrollView in Android Projects
 
 # Horizontal ScrollView :
 
@@ -7,8 +7,9 @@ Repo for Container Horizontal ScrollView in Android Projects
 horizontal direction.
 - HorizontalScrollView only supports horizontal scrolling.
 - For vertical scroll, android uses ScrollView.  
+
 Links:
 
 [Link 1](https://developer.android.com/reference/android/widget/HorizontalScrollView) ,
 
-
+# Nested ScrollView :
