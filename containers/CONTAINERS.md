@@ -30,10 +30,28 @@ Repo for all Containers in Android Projects
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [CardViewDemo1](CardView/CardViewDemo1) | Demonstrates use ofCardView in RecyclerView | CardView, RecyclerView, Implementation, ListAdapter, setLayoutManager, RecyclerView.Adapter, LayoutInflater, onBindViewHolder, RecyclerView.ViewHolder, getItemCount | [XXX]() |
+| [CardViewDemo1](CardView/CardViewDemo1) | Demonstrates use of CardView in RecyclerView | CardView, RecyclerView, Implementation, ListAdapter, setLayoutManager, RecyclerView.Adapter, LayoutInflater, onBindViewHolder, RecyclerView.ViewHolder, getItemCount | [XXX]() |
 
 5) AppBarLayout :
 
 | Project Name | Program Description | Tags |Links|
 |---|---|---|---|
-| [AppBarLayoutDemo1](AppBarLayout/AppBarLayoutDemo1) | Demonstrates use AppBarLayout wrapping ToolBar | AppBarLayout, fitsSystemWindows, Toolbar, layout_scrollFlags, TabLayout, TabItem, NestedScrollView, layout_behavior, TextView | [XXX]() |
+| [AppBarLayoutDemo1](AppBarLayout/AppBarLayoutDemo1) | Demonstrates use of AppBarLayout wrapping ToolBar | AppBarLayout, fitsSystemWindows, Toolbar, layout_scrollFlags, TabLayout, TabItem, NestedScrollView, layout_behavior, TextView | [XXX]() |
+
+6) NavigationView :
+
+| Project Name | Program Description | Tags |Links|
+|---|---|---|---|
+| [NavigationViewDemo1](NavigationView/NavigationViewDemo1) | Demonstrates use of NavigationView with DrawerLayout | DrawerLayout, NavigationView, AppBarLayout, Toolbar, setSupportActionBar, ActionBarDrawerToggle, setNavigationItemSelectedListener,  | [XXX]() |
+
+7) BottomNavigationView :
+ 
+ | Project Name | Program Description | Tags |Links|
+ |---|---|---|---|
+ | [BottomNavigationViewDemo1](BottomNavigationView/BottomNavigationViewDemo1) | Demonstrates use of BottomNavigationView |   | [XXX]() |
+
+8) Toolbar :
+  
+  | Project Name | Program Description | Tags |Links|
+  |---|---|---|---|
+  | [Toolbar](Toolbar/ToolbarDemo1) | Demonstrates use of Toolbar |   | [XXX]() |
