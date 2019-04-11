@@ -10,8 +10,6 @@ import android.support.v7.widget.Toolbar;
 public class MainActivity extends AppCompatActivity {
 
     private TabLayout mTabLayout;
-    //private AppBarLayout mAppbar;
-    //private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mTabLayout = findViewById(R.id.tabLayoutID);
-        //mAppbar = findViewById(R.id.appBarLayoutID);
 
         ViewPager mViewPager = findViewById(R.id.viewPagerID);
         TabFragmentPagerAdapter adapter = new TabFragmentPagerAdapter(getSupportFragmentManager());
