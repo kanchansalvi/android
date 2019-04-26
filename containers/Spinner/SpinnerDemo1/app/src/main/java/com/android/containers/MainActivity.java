@@ -50,10 +50,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void initializeCountryList(){
         mCountryList = new ArrayList();
-        mCountryList.add("Captain Marvel");
-        mCountryList.add("The NutCracker");
-        mCountryList.add("Beauty and the Beast");
-        mCountryList.add("Frozen");
-        mCountryList.add("Hotel Transylvania");
+        mCountryList.add("USA");
+        mCountryList.add("Japan");
+        mCountryList.add("Italy");
+        mCountryList.add("India");
+        mCountryList.add("Australia");
+        mCountryList.add("Canada");
+        mCountryList.add("China");
     }
 }
