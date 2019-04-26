@@ -16,6 +16,7 @@ The program [SpinnerDemo1](SpinnerDemo1) demonstrates Spinner with ArrayAdapter.
 
 Links:
 
-[Link 1](https://developer.android.com/guide/topics/ui/controls/spinner)
+[Link 1](https://developer.android.com/guide/topics/ui/controls/spinner), 
+[Link 2](https://developer.android.com/reference/android/widget/Spinner.html)
 
 
