@@ -16,10 +16,22 @@ we should not use ScrollView along with ListView or Gridview because they both w
 - HorizontalScrollView is used to scroll the child elements or views in a 
 horizontal direction.
 - HorizontalScrollView only supports horizontal scrolling.
-- For vertical scroll, android uses ScrollView.  
+- For vertical scroll, android uses ScrollView. 
+
+Check the eg. [HorizontalScrollViewDemo1](HorizontalScrollViewDemo1). 
 
 Links:
 
-[Link 1](https://developer.android.com/reference/android/widget/HorizontalScrollView) ,
+[Link 1](https://developer.android.com/reference/android/widget/HorizontalScrollView) 
 
 # Nested ScrollView :
+- NestedScrollView is just like ScrollView, but it supports acting as both a nested scrolling parent and child on both new and old versions of Android. Nested scrolling is enabled by default.
+- Adding a ScrollView inside ScrollView can be difficult.
+- Nested ScrollView supports acting as both a nested scrolling parent and child on both new and old versions of Android. 
+
+Check the eg. [NestedScrollViewDemo1](NestedScrollViewDemo1).
+
+Links:
+
+[Link 1](https://developer.android.com/reference/android/support/v4/widget/NestedScrollView)
+
