@@ -12,20 +12,21 @@
 
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="200dp"
             android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="There are few workarounds you could add in order to get this to work but
-                there is no need for that. Android support v4 library has a class called NestedScrollView
-                and it does exactly what the name suggests.
-                It can be used as both parent or child ScrollView.
-There are few workarounds you could add in order to get this to work but
-                there is no need for that. Android support v4 library has a class called NestedScrollView
-                and it does exactly what the name suggests."
-                android:textStyle="bold"/>
+                android:text="There are few workarounds you could add in order to get this to work but there is no need for that.
+    Android support v4 library has a class called NestedScrollView and it does exactly what the name suggests.
+    It can be used as both parent or child ScrollView.
+    There are few workarounds you could add in order to get this to work but there is no need for that.
+    Android support v4 library has a class called NestedScrollView and it does exactly what the name suggests.
+    It can be used as both parent or child ScrollView.
+    There are few workarounds you could add in order to get this to work but there is no need for that.
+    Android support v4 library has a class called NestedScrollView and it does exactly what the name suggests."
+                android:textSize="20dp"/>
 
         </android.support.v4.widget.NestedScrollView>
 
