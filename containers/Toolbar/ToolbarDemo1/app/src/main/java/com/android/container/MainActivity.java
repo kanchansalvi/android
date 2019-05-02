@@ -33,13 +33,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch (item.getItemId()){
-            case R.id.favouritesMenu :
-                Toast.makeText(this,"You clicked on Favourites menu on ToolBar", Toast.LENGTH_SHORT).show();
+        if(item.getItemId() == R.id.favouritesMenu)
+            Toast.makeText(this,"You clicked on Favourites menu on ToolBar", Toast.LENGTH_SHORT).show();
 
-            case R.id.appsMenu :
-                Toast.makeText(this,"You clicked on Apps menu on ToolBar", Toast.LENGTH_SHORT).show();
-        }
+        if(item.getItemId() == R.id.appsMenu)
+            Toast.makeText(this,"You clicked on Apps menu on ToolBar", Toast.LENGTH_SHORT).show();
 
         return true;
     }

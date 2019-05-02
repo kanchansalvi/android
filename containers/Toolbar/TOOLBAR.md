@@ -11,7 +11,7 @@ Steps for adding Bottom Navigation View:
 1) Add toolbar widget in activity file(activity_main).    
 2) Create a menu file to hold items of toolbar.   
 3) In the main file, setsupportActionBar for toolbar. 
-Override the onCreateOptionsMenu method inflate the menu infater with the menu file. 
+Override the onCreateOptionsMenu method inflate the menu inflat er with the menu file. 
 4) Override the onOptionsItemSelected method to add events on the toolbar menu.
 5) Update the android:theme attribute in the Manifest File with appcompat's NoActionBar themes.
     
