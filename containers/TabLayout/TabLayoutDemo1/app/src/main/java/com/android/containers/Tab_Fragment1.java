@@ -8,10 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class Tab_Fragment1 extends Fragment {
 
     public Tab_Fragment1() {

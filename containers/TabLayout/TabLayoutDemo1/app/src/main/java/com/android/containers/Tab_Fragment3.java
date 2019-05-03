@@ -7,10 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class Tab_Fragment3 extends Fragment {
 
 
