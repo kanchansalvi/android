@@ -9,7 +9,7 @@ Repo for Activity in Android Projects.
 4) For example, you might start a new activity within your app in response to a user action, or start a service to download a file in the background.
 5) To create an explicit intent, define the component name for the Intent object—all other intent properties are optional.
 
-The program [Explicit Intent](ExplicitIntent/ExplicitIntentDemo1) demonstrates Explicit Intent.   
+The program [Explicit Intent](Explicit/ExplicitDemo1) demonstrates Explicit Intent.   
 
 Links:
 
