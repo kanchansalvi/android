@@ -8,15 +8,15 @@ Repo for Intent in Android Projects.
 2) Intents are also used to transfer data between activities.
 3) Intents are used generally for starting a new activity using startActivity().
 4) Intent is of two types:
-   - [Implicit Intent](ImplicitIntent)
-   - [Explicit Intent](ExplicitIntent)
+   - [Implicit Intent](Implicit)
+   - [Explicit Intent](Explicit)
 5) intents facilitate communication between components in several ways, there are three fundamental use cases:
     - Starting an activity
     - Starting a service
     - Delivering a broadcast
 
-The program [Implicit Intent](ImplicitIntent/ImplicitIntentDemo1) demonstrates Implicit Intent.    
-The program [Explicit Intent](ExplicitIntent/ExplicitIntentDemo1) demonstrates Explicit Intent.   
+The program [Implicit Intent](Implicit/ImplicitDemo1) demonstrates Implicit Intent.    
+The program [Explicit Intent](Explicit/ExplicitDemo1) demonstrates Explicit Intent.   
 
 Links:
 
