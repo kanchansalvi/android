@@ -13,7 +13,7 @@ implicit intent to request that another capable app show a specified location on
 intent filters for each of your app components with an <intent-filter> element in your manifest file.
 
 
-The program [Implicit Intent](ImplicitIntent/ImplicitIntentDemo1) demonstrates Implicit Intent. 
+The program [Implicit Intent](Implicit/ImplicitDemo1) demonstrates Implicit Intent. 
 
 Links:
 
